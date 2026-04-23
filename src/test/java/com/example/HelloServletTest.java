@@ -31,6 +31,6 @@ public class HelloServletTest {
         writer.flush();
 
         verify(response).setContentType("text/html");
-        assert stringWriter.toString().contains("Hello from Servlet");
+        assert stringWriter.toString().contains("Hello from Shreya");
     }
 }
